@@ -39,6 +39,8 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 # localhost:3000/rails/db visual db 
 gem 'rails_db'
+# pry rails for debugging
+gem 'pry-rails', :group => :development
 
 
 

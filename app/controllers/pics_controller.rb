@@ -9,7 +9,7 @@ class PicsController < ApplicationController
 	end
 
 	def create
-		@pic = Pic.new(pci_params)
+		@pic = Pic.new(pic_params)
 	end
 
 	

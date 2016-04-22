@@ -26,6 +26,27 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+
+
+
+
+
+# haml
+gem 'haml', '~> 4.0.5'
+# simple form
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+# bootstrap saas
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+# localhost:3000/rails/db visual db 
+gem 'rails_db'
+
+
+
+
+
+
+
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

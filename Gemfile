@@ -41,6 +41,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'rails_db'
 # pry rails for debugging
 gem 'pry-rails', :group => :development
+# devise user authentication
+gem 'devise', '~> 4.0'
 
 
 

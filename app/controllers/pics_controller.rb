@@ -22,6 +22,17 @@ class PicsController < ApplicationController
 		end
 	end
 
+	def edit
+	end
+
+	def update
+		if @pic.update(pic_params)
+			redirect_to @pic, notice: "post updated"
+		else
+			render 'edit'
+		end
+	end
+
 	
 	# private methods
 	private

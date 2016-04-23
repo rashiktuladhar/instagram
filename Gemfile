@@ -43,6 +43,8 @@ gem 'rails_db'
 gem 'pry-rails', :group => :development
 # devise user authentication
 gem 'devise', '~> 4.0'
+# paper clip form image upload
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
 
 

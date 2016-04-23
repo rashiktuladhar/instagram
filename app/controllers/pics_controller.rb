@@ -56,4 +56,7 @@ class PicsController < ApplicationController
 	end
 
 
+	
+
+
 end

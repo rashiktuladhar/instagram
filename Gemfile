@@ -45,6 +45,8 @@ gem 'pry-rails', :group => :development
 gem 'devise', '~> 4.0'
 # paper clip form image upload
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
+# masonry for design
+gem 'masonry-rails', '~> 0.2.4'
 
 
 

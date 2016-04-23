@@ -47,6 +47,8 @@ gem 'devise', '~> 4.0'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 # masonry for design
 gem 'masonry-rails', '~> 0.2.4'
+# for rating
+gem 'acts_as_votable', '~> 0.10.0'
 
 
 

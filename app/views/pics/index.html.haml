@@ -2,6 +2,8 @@
 	#pics.transitions-enabled
 		- @pics.each do |pic|
 			.box.panel.panel-default
-				= link_to (image_tag pic.image.url, class: "img-responsive")
+				= link_to (image_tag pic.image.url, class: "img-responsive"), pic
 				%h2= link_to pic.title, pic
+	
+
 	

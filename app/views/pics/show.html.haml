@@ -19,6 +19,6 @@
 								%span.glyphicon.glyphicon-thumbs-up
 								= @pic.get_upvotes.size
 								
-							- if user_signed_in?
+							- if user_signed_in? and @pic.user_id == current_user.id
 								=link_to "Edit", edit_pic_path, class: "btn btn-info"
 								=link_to "Delete", pic_path, method: :delete, data: { confirm: "Are You Sure?"}, class: "btn btn-danger"
